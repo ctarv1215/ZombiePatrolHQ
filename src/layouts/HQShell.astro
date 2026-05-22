@@ -1,0 +1,54 @@
+---
+import '../styles/zombie-patrol-theme.css';
+const { title = 'Zombie Patrol HQ', subtitle = 'Public Access Terminal', active = '' } = Astro.props;
+const nav = [
+  ['/', 'HQ Dashboard', 'dashboard'],
+  ['/history', 'Zombie Patrol History', 'history'],
+  ['/training-center', 'Training Center Information', 'training'],
+  ['/alphatag-arsenal', 'AlphaTag Arsenal', 'arsenal'],
+  ['/training-records', 'Training Records', 'records'],
+  ['/leaderboards', 'Leaderboards', 'leaderboards'],
+  ['/mission-archive', 'Mission Archive', 'archive'],
+  ['/schedule-deployment', 'Schedule Deployment', 'schedule']
+];
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Zombie Patrol HQ public access terminal for training records, mission history, and recruit information." />
+    <title>{title} | ZombiePatrolHQ.com</title>
+  </head>
+  <body>
+    <div class="page-bg"></div>
+    <div class="page-grid"></div>
+    <div class="hq-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <img src="/assets/logos/zombie-patrol-logo.png" alt="Zombie Patrol" />
+          <div>
+            <div class="brand-title">Zombie Patrol HQ</div>
+            <div class="brand-subtitle">{subtitle}</div>
+          </div>
+        </div>
+        <nav class="nav" aria-label="Main navigation">
+          {nav.map(([href, label, key]) => <a class={active === key ? 'active' : ''} href={href}>{label}</a>)}
+        </nav>
+        <div class="sidebar-footer">
+          <strong>PUBLIC ACCESS:</strong><br />
+          This terminal displays public-safe training records only. Scheduling, waivers, and payment remain handled by Lake Area Adventures.
+        </div>
+      </aside>
+      <main class="content">
+        <div class="topbar">
+          <div>
+            <div class="kicker">ZombiePatrolHQ.com</div>
+          </div>
+          <span class="badge">MVP v0.1 Static Preview</span>
+        </div>
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>

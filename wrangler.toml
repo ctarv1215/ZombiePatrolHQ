@@ -1,0 +1,13 @@
+name = "zombie-patrol-hq"
+compatibility_date = "2026-05-22"
+pages_build_output_dir = "dist"
+
+# D1/R2 bindings will be added in the sync phase.
+# [[d1_databases]]
+# binding = "ZPHQ_DB"
+# database_name = "zombie-patrol-hq"
+# database_id = "replace-after-creation"
+#
+# [[r2_buckets]]
+# binding = "ZPHQ_BUCKET"
+# bucket_name = "zombie-patrol-hq"

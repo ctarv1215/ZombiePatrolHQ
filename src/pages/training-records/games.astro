@@ -1,0 +1,9 @@
+---
+import HQShell from '../../layouts/HQShell.astro';
+import GameTable from '../../components/GameTable.astro';
+import snapshot from '../../data/placeholder-snapshot.json';
+---
+<HQShell title="Games" active="records">
+  <section class="hero"><div class="kicker">Deployment Index</div><h1>Games</h1><p>Public game/session summaries. Detailed hit logs and raw AlphaTag event data are intentionally not included in this MVP.</p></section>
+  <div class="panel-grid"><section class="panel span-12"><GameTable games={snapshot.games} limit={snapshot.games.length} /></section></div>
+</HQShell>

@@ -1,0 +1,8 @@
+---
+import HQShell from '../../layouts/HQShell.astro';
+import snapshot from '../../data/placeholder-snapshot.json';
+---
+<HQShell title="Players" active="records">
+  <section class="hero"><div class="kicker">Public Callsign Registry</div><h1>Players</h1><p>Public-safe callsign records only. No contact information, account data, verification values, or private identity evidence is included.</p></section>
+  <div class="panel-grid"><section class="panel span-12"><div class="table-wrap"><table><thead><tr><th>Callsign</th><th>Rank</th><th>Team</th><th>Games</th><th>Score</th><th>Frags</th><th>Accuracy</th></tr></thead><tbody>{snapshot.players.map((p)=><tr><td><a href={`/training-records/players/${p.id}`}>{p.callsign}</a></td><td>{p.rankCode} · {p.rank}</td><td>{p.team}</td><td>{p.games}</td><td>{p.score.toLocaleString()}</td><td>{p.frags.toLocaleString()}</td><td>{p.accuracy}%</td></tr>)}</tbody></table></div></section></div>
+</HQShell>

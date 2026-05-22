@@ -1,0 +1,1133 @@
+{
+  "schema_version": "zphq_placeholder_v0_1",
+  "generated_at": "2026-05-22T00:00:00Z",
+  "venue": {
+    "name": "Zombie Patrol HQ",
+    "bookingUrl": "https://lakeareaadventures.centeredgeonline.com/event/events"
+  },
+  "players": [
+    {
+      "id": "player-1",
+      "callsign": "Ghost Lead",
+      "team": "Red Raptors",
+      "avatar": "/assets/avatars/01_bounty_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O11",
+      "rank": "Lieutenant Colonel",
+      "rankIcon": "/assets/ranks/O11.png",
+      "games": 1071,
+      "score": 1505658,
+      "frags": 10460,
+      "deaths": 3505,
+      "hits": 48047,
+      "shots": 80707,
+      "wounds": 4334,
+      "accuracy": 0.9,
+      "medals": [
+        "/assets/medals/Eagle Eye.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Cupcake.png"
+      ]
+    },
+    {
+      "id": "player-2",
+      "callsign": "Core Hunter",
+      "team": "Blue Banshees",
+      "avatar": "/assets/avatars/01_captan_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O11",
+      "rank": "Lieutenant Colonel",
+      "rankIcon": "/assets/ranks/O11.png",
+      "games": 1092,
+      "score": 1499591,
+      "frags": 10346,
+      "deaths": 3612,
+      "hits": 48932,
+      "shots": 82488,
+      "wounds": 4443,
+      "accuracy": 1.1,
+      "medals": [
+        "/assets/medals/Eagle Eye.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Cupcake.png"
+      ]
+    },
+    {
+      "id": "player-3",
+      "callsign": "Laser Wolf",
+      "team": "Gold Guardians",
+      "avatar": "/assets/avatars/01_darky_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O11",
+      "rank": "Lieutenant Colonel",
+      "rankIcon": "/assets/ranks/O11.png",
+      "games": 1115,
+      "score": 1498771,
+      "frags": 10415,
+      "deaths": 3642,
+      "hits": 48080,
+      "shots": 81736,
+      "wounds": 4422,
+      "accuracy": 1.6,
+      "medals": [
+        "/assets/medals/Eagle Eye.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Cupcake.png"
+      ]
+    },
+    {
+      "id": "player-4",
+      "callsign": "Night Raven",
+      "team": "Shadow Syndicate",
+      "avatar": "/assets/avatars/01_gordon_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 495,
+      "score": 564689,
+      "frags": 4158,
+      "deaths": 1741,
+      "hits": 17560,
+      "shots": 33192,
+      "wounds": 2358,
+      "accuracy": 8.8,
+      "medals": [
+        "/assets/medals/MVP.png",
+        "/assets/medals/Eagle Eye.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Cupcake.png"
+      ]
+    },
+    {
+      "id": "player-5",
+      "callsign": "Pixel Reaper",
+      "team": "Neon Knights",
+      "avatar": "/assets/avatars/01_syborg_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 494,
+      "score": 561752,
+      "frags": 4134,
+      "deaths": 1862,
+      "hits": 17594,
+      "shots": 33332,
+      "wounds": 2350,
+      "accuracy": 8.3,
+      "medals": [
+        "/assets/medals/Eagle Eye.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Cupcake.png"
+      ]
+    },
+    {
+      "id": "player-39",
+      "callsign": "Quantum Quinn",
+      "team": "Gold Guardians",
+      "avatar": "/assets/avatars/01_wonderwoman_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 413,
+      "score": 307026,
+      "frags": 2419,
+      "deaths": 2144,
+      "hits": 10160,
+      "shots": 27494,
+      "wounds": 1923,
+      "accuracy": 6.8,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Eagle Eye.png"
+      ]
+    },
+    {
+      "id": "player-11",
+      "callsign": "Shadow Scout",
+      "team": "Neon Knights",
+      "avatar": "/assets/avatars/02_bullock_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 414,
+      "score": 304816,
+      "frags": 2422,
+      "deaths": 2141,
+      "hits": 10143,
+      "shots": 26981,
+      "wounds": 1988,
+      "accuracy": 10.3,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-38",
+      "callsign": "Hydra Hero",
+      "team": "Blue Banshees",
+      "avatar": "/assets/avatars/02_cowboy_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 406,
+      "score": 295139,
+      "frags": 2333,
+      "deaths": 2156,
+      "hits": 9911,
+      "shots": 27598,
+      "wounds": 1878,
+      "accuracy": 9.1,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-32",
+      "callsign": "Venom Viper",
+      "team": "Blue Banshees",
+      "avatar": "/assets/avatars/02_desperado_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 390,
+      "score": 293722,
+      "frags": 2285,
+      "deaths": 1967,
+      "hits": 10024,
+      "shots": 26654,
+      "wounds": 1969,
+      "accuracy": 9.4,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-21",
+      "callsign": "Tournament Titan",
+      "team": "Gold Guardians",
+      "avatar": "/assets/avatars/02_laserx_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 393,
+      "score": 289970,
+      "frags": 2296,
+      "deaths": 1997,
+      "hits": 9773,
+      "shots": 26204,
+      "wounds": 1968,
+      "accuracy": 11.0,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Zombie Patrol Combat Veteran.png"
+      ]
+    },
+    {
+      "id": "player-19",
+      "callsign": "Nova Rookie",
+      "team": "Red Raptors",
+      "avatar": "/assets/avatars/02_olga_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 389,
+      "score": 288826,
+      "frags": 2307,
+      "deaths": 2031,
+      "hits": 9554,
+      "shots": 25707,
+      "wounds": 1927,
+      "accuracy": 9.8,
+      "medals": [
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Played In The Beta.png"
+      ]
+    },
+    {
+      "id": "player-12",
+      "callsign": "Beta Captain",
+      "team": "Green Ghouls",
+      "avatar": "/assets/avatars/02_zhisu_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 381,
+      "score": 283216,
+      "frags": 2264,
+      "deaths": 1973,
+      "hits": 9176,
+      "shots": 24783,
+      "wounds": 1814,
+      "accuracy": 9.9,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Played In The Beta.png"
+      ]
+    },
+    {
+      "id": "player-14",
+      "callsign": "Plasma Witch",
+      "team": "Blue Banshees",
+      "avatar": "/assets/avatars/03_daredevil_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 376,
+      "score": 279450,
+      "frags": 2257,
+      "deaths": 1956,
+      "hits": 9157,
+      "shots": 24758,
+      "wounds": 1994,
+      "accuracy": 10.7,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-7",
+      "callsign": "Static Phantom",
+      "team": "Red Raptors",
+      "avatar": "/assets/avatars/03_dart_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 391,
+      "score": 279256,
+      "frags": 2235,
+      "deaths": 2043,
+      "hits": 9230,
+      "shots": 25186,
+      "wounds": 1892,
+      "accuracy": 10.8,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Eagle Eye.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-20",
+      "callsign": "Birthday Boss",
+      "team": "Blue Banshees",
+      "avatar": "/assets/avatars/03_druid_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 376,
+      "score": 276240,
+      "frags": 2195,
+      "deaths": 2011,
+      "hits": 9139,
+      "shots": 25341,
+      "wounds": 1700,
+      "accuracy": 7.8,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Played In The Beta.png"
+      ]
+    },
+    {
+      "id": "player-23",
+      "callsign": "Delta Dash",
+      "team": "Neon Knights",
+      "avatar": "/assets/avatars/03_ironman_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 376,
+      "score": 273142,
+      "frags": 2142,
+      "deaths": 1912,
+      "hits": 9247,
+      "shots": 24902,
+      "wounds": 1892,
+      "accuracy": 10.0,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Eagle Eye.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-28",
+      "callsign": "Photon Punk",
+      "team": "Shadow Syndicate",
+      "avatar": "/assets/avatars/03_no52_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 377,
+      "score": 271997,
+      "frags": 2192,
+      "deaths": 1909,
+      "hits": 8849,
+      "shots": 23904,
+      "wounds": 1910,
+      "accuracy": 10.9,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-22",
+      "callsign": "Arena Ace",
+      "team": "Shadow Syndicate",
+      "avatar": "/assets/avatars/03_policeman_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 371,
+      "score": 270455,
+      "frags": 2192,
+      "deaths": 1978,
+      "hits": 8771,
+      "shots": 23983,
+      "wounds": 1934,
+      "accuracy": 11.1,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Zombie Patrol Combat Veteran.png"
+      ]
+    },
+    {
+      "id": "player-9",
+      "callsign": "Arcade Ranger",
+      "team": "Gold Guardians",
+      "avatar": "/assets/avatars/04_amaterasu_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 373,
+      "score": 269449,
+      "frags": 2133,
+      "deaths": 2028,
+      "hits": 9306,
+      "shots": 24878,
+      "wounds": 1815,
+      "accuracy": 9.7,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Eagle Eye.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-13",
+      "callsign": "Retro Sniper",
+      "team": "Red Raptors",
+      "avatar": "/assets/avatars/04_fandom_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 357,
+      "score": 269213,
+      "frags": 2160,
+      "deaths": 1763,
+      "hits": 8652,
+      "shots": 23518,
+      "wounds": 1668,
+      "accuracy": 11.2,
+      "medals": [
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-37",
+      "callsign": "Turbo Tagger",
+      "team": "Red Raptors",
+      "avatar": "/assets/avatars/01_bounty_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 366,
+      "score": 265226,
+      "frags": 2139,
+      "deaths": 1951,
+      "hits": 8836,
+      "shots": 23667,
+      "wounds": 1854,
+      "accuracy": 10.5,
+      "medals": [
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/MVP.png"
+      ]
+    },
+    {
+      "id": "player-24",
+      "callsign": "Omega Ops",
+      "team": "Green Ghouls",
+      "avatar": "/assets/avatars/01_captan_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 372,
+      "score": 264307,
+      "frags": 2147,
+      "deaths": 1935,
+      "hits": 8790,
+      "shots": 24268,
+      "wounds": 1820,
+      "accuracy": 9.6,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png",
+        "/assets/medals/Eagle Eye.png"
+      ]
+    },
+    {
+      "id": "player-27",
+      "callsign": "Blaster Belle",
+      "team": "Gold Guardians",
+      "avatar": "/assets/avatars/01_darky_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 370,
+      "score": 264218,
+      "frags": 2129,
+      "deaths": 1910,
+      "hits": 8855,
+      "shots": 23961,
+      "wounds": 1864,
+      "accuracy": 10.9,
+      "medals": [
+        "/assets/medals/Rambo.png",
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Eagle Eye.png"
+      ]
+    },
+    {
+      "id": "player-16",
+      "callsign": "Vapor Saint",
+      "team": "Shadow Syndicate",
+      "avatar": "/assets/avatars/01_gordon_lw_avarars.jpg",
+      "background": "/assets/backgrounds/splash-screen.jpg",
+      "rankCode": "O9",
+      "rank": "Captain",
+      "rankIcon": "/assets/ranks/O9.png",
+      "games": 376,
+      "score": 263612,
+      "frags": 2158,
+      "deaths": 1969,
+      "hits": 8480,
+      "shots": 23151,
+      "wounds": 1787,
+      "accuracy": 11.3,
+      "medals": [
+        "/assets/medals/Cupcake.png",
+        "/assets/medals/Rambo.png",
+        "/assets/medals/MVP.png"
+      ]
+    }
+  ],
+  "teams": [
+    {
+      "id": "team-1",
+      "name": "Red Raptors",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 12,
+      "games": 1120,
+      "score": 3386763,
+      "frags": 26029
+    },
+    {
+      "id": "team-2",
+      "name": "Blue Banshees",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 12,
+      "games": 1120,
+      "score": 3384501,
+      "frags": 25970
+    },
+    {
+      "id": "team-3",
+      "name": "Gold Guardians",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 12,
+      "games": 1120,
+      "score": 3302529,
+      "frags": 25235
+    },
+    {
+      "id": "team-4",
+      "name": "Shadow Syndicate",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 12,
+      "games": 1099,
+      "score": 2384628,
+      "frags": 19356
+    },
+    {
+      "id": "team-5",
+      "name": "Neon Knights",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 12,
+      "games": 1079,
+      "score": 2148199,
+      "frags": 17452
+    },
+    {
+      "id": "team-6",
+      "name": "Green Ghouls",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 12,
+      "games": 1073,
+      "score": 1832749,
+      "frags": 15327
+    },
+    {
+      "id": "team-10",
+      "name": "Red Wardens",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 10,
+      "games": 51,
+      "score": 760268,
+      "frags": 4632
+    },
+    {
+      "id": "team-9",
+      "name": "Blue Reapers",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 10,
+      "games": 51,
+      "score": 684882,
+      "frags": 4069
+    },
+    {
+      "id": "team-7",
+      "name": "Noob Power",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 0,
+      "games": 0,
+      "score": 0,
+      "frags": 0
+    },
+    {
+      "id": "team-8",
+      "name": "Vertex",
+      "logo": "/assets/backgrounds/team-default-logo.png",
+      "roster": 0,
+      "games": 0,
+      "score": 0,
+      "frags": 0
+    }
+  ],
+  "games": [
+    {
+      "id": "game-1203",
+      "title": "Training Deployment 1203",
+      "date": "2026-06-06 15:11:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 16,
+      "totalScore": 27982,
+      "frags": 173
+    },
+    {
+      "id": "game-1152",
+      "title": "Training Deployment 1152",
+      "date": "2026-06-06 14:57:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 0,
+      "totalScore": 0,
+      "frags": 0
+    },
+    {
+      "id": "game-1202",
+      "title": "Training Deployment 1202",
+      "date": "2026-06-06 14:57:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 14,
+      "totalScore": 27462,
+      "frags": 165
+    },
+    {
+      "id": "game-1151",
+      "title": "Training Deployment 1151",
+      "date": "2026-06-06 14:43:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 0,
+      "totalScore": 0,
+      "frags": 0
+    },
+    {
+      "id": "game-1201",
+      "title": "Training Deployment 1201",
+      "date": "2026-06-06 14:43:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 16,
+      "totalScore": 27994,
+      "frags": 169
+    },
+    {
+      "id": "game-1150",
+      "title": "Training Deployment 1150",
+      "date": "2026-06-06 14:29:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 0,
+      "totalScore": 0,
+      "frags": 0
+    },
+    {
+      "id": "game-1200",
+      "title": "Training Deployment 1200",
+      "date": "2026-06-06 14:29:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 14,
+      "totalScore": 27039,
+      "frags": 165
+    },
+    {
+      "id": "game-1149",
+      "title": "Training Deployment 1149",
+      "date": "2026-06-06 14:15:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 0,
+      "totalScore": 0,
+      "frags": 0
+    },
+    {
+      "id": "game-1199",
+      "title": "Training Deployment 1199",
+      "date": "2026-06-06 14:15:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 15,
+      "totalScore": 26983,
+      "frags": 163
+    },
+    {
+      "id": "game-1198",
+      "title": "Training Deployment 1198",
+      "date": "2026-06-05 20:38:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 20,
+      "totalScore": 41473,
+      "frags": 244
+    },
+    {
+      "id": "game-1197",
+      "title": "Training Deployment 1197",
+      "date": "2026-06-05 20:24:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 17,
+      "totalScore": 37224,
+      "frags": 223
+    },
+    {
+      "id": "game-1148",
+      "title": "Training Deployment 1148",
+      "date": "2026-06-05 20:10:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 0,
+      "totalScore": 0,
+      "frags": 0
+    },
+    {
+      "id": "game-1196",
+      "title": "Training Deployment 1196",
+      "date": "2026-06-05 20:10:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 19,
+      "totalScore": 34964,
+      "frags": 209
+    },
+    {
+      "id": "game-1147",
+      "title": "Training Deployment 1147",
+      "date": "2026-06-05 19:56:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 0,
+      "totalScore": 0,
+      "frags": 0
+    },
+    {
+      "id": "game-1195",
+      "title": "Training Deployment 1195",
+      "date": "2026-06-05 19:56:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 17,
+      "totalScore": 31495,
+      "frags": 191
+    },
+    {
+      "id": "game-1146",
+      "title": "Training Deployment 1146",
+      "date": "2026-06-05 19:42:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 0,
+      "totalScore": 0,
+      "frags": 0
+    },
+    {
+      "id": "game-1194",
+      "title": "Training Deployment 1194",
+      "date": "2026-06-05 19:42:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 17,
+      "totalScore": 24900,
+      "frags": 148
+    },
+    {
+      "id": "game-1145",
+      "title": "Training Deployment 1145",
+      "date": "2026-06-05 19:28:00.000000",
+      "status": "imported",
+      "durationSeconds": 720,
+      "players": 0,
+      "totalScore": 0,
+      "frags": 0
+    }
+  ],
+  "ranks": [
+    {
+      "code": "E0",
+      "name": "Enlistee",
+      "games_required": 0,
+      "sort_order": 0,
+      "icon": "/assets/ranks/E0.png"
+    },
+    {
+      "code": "O0",
+      "name": "Second Lieutenant",
+      "games_required": 0,
+      "sort_order": 0,
+      "icon": "/assets/ranks/O0.png"
+    },
+    {
+      "code": "E1",
+      "name": "Volunteer",
+      "games_required": 3,
+      "sort_order": 1,
+      "icon": "/assets/ranks/E1.png"
+    },
+    {
+      "code": "O1",
+      "name": "Second Lieutenant",
+      "games_required": 3,
+      "sort_order": 1,
+      "icon": "/assets/ranks/O1.png"
+    },
+    {
+      "code": "E2",
+      "name": "Private",
+      "games_required": 9,
+      "sort_order": 2,
+      "icon": "/assets/ranks/E2.png"
+    },
+    {
+      "code": "O2",
+      "name": "Second Lieutenant",
+      "games_required": 9,
+      "sort_order": 2,
+      "icon": "/assets/ranks/O2.png"
+    },
+    {
+      "code": "E3",
+      "name": "Private Second Class",
+      "games_required": 18,
+      "sort_order": 3,
+      "icon": "/assets/ranks/E3.png"
+    },
+    {
+      "code": "O3",
+      "name": "Second Lieutenant",
+      "games_required": 18,
+      "sort_order": 3,
+      "icon": "/assets/ranks/O3.png"
+    },
+    {
+      "code": "E4",
+      "name": "Private First Class",
+      "games_required": 30,
+      "sort_order": 4,
+      "icon": "/assets/ranks/E4.png"
+    },
+    {
+      "code": "O4",
+      "name": "Second Lieutenant",
+      "games_required": 30,
+      "sort_order": 4,
+      "icon": "/assets/ranks/O4.png"
+    },
+    {
+      "code": "E5",
+      "name": "Specialist",
+      "games_required": 60,
+      "sort_order": 5,
+      "icon": "/assets/ranks/E5.png"
+    },
+    {
+      "code": "O5",
+      "name": "Second Lieutenant",
+      "games_required": 60,
+      "sort_order": 5,
+      "icon": "/assets/ranks/O5.png"
+    },
+    {
+      "code": "E6",
+      "name": "Sergeant",
+      "games_required": 90,
+      "sort_order": 6,
+      "icon": "/assets/ranks/E6.png"
+    },
+    {
+      "code": "O6",
+      "name": "First Lieutenant",
+      "games_required": 90,
+      "sort_order": 6,
+      "icon": "/assets/ranks/O6.png"
+    },
+    {
+      "code": "E7",
+      "name": "Staff Sergeant",
+      "games_required": 150,
+      "sort_order": 7,
+      "icon": "/assets/ranks/E7.png"
+    },
+    {
+      "code": "O7",
+      "name": "First Lieutenant",
+      "games_required": 150,
+      "sort_order": 7,
+      "icon": "/assets/ranks/O7.png"
+    },
+    {
+      "code": "E8",
+      "name": "Sergeant First Class",
+      "games_required": 210,
+      "sort_order": 8,
+      "icon": "/assets/ranks/E8.png"
+    },
+    {
+      "code": "O8",
+      "name": "First Lieutenant",
+      "games_required": 210,
+      "sort_order": 8,
+      "icon": "/assets/ranks/O8.png"
+    }
+  ],
+  "medals": [
+    {
+      "name": "Cupcake",
+      "description": "Fewest frags of all players in a game.",
+      "sort_order": 10,
+      "icon": "/assets/medals/Cupcake.png"
+    },
+    {
+      "name": "Double Kill",
+      "description": "Two frags without a death.",
+      "sort_order": 20,
+      "icon": "/assets/medals/Double Kill.png"
+    },
+    {
+      "name": "Eagle Eye",
+      "description": "Highest accuracy in a game.",
+      "sort_order": 30,
+      "icon": "/assets/medals/Eagle Eye.png"
+    },
+    {
+      "name": "First Blood",
+      "description": "First frag of a game.",
+      "sort_order": 40,
+      "icon": "/assets/medals/First Blood.png"
+    },
+    {
+      "name": "Invisible",
+      "description": "No wounds taken in a game.",
+      "sort_order": 50,
+      "icon": "/assets/medals/Invisible.png"
+    },
+    {
+      "name": "Kill-pocalypse",
+      "description": "Ten frags without a death.",
+      "sort_order": 60,
+      "icon": "/assets/medals/KillPocalypse.png"
+    },
+    {
+      "name": "Kill-tacular",
+      "description": "Five frags without a death.",
+      "sort_order": 70,
+      "icon": "/assets/medals/KillTacular.png"
+    },
+    {
+      "name": "Lionheart",
+      "description": "First death of a game.",
+      "sort_order": 80,
+      "icon": "/assets/medals/Lionheart.png"
+    },
+    {
+      "name": "MVP",
+      "description": "Most points scored in a game.",
+      "sort_order": 90,
+      "icon": "/assets/medals/MVP.png"
+    },
+    {
+      "name": "Meat Shield",
+      "description": "Most deaths in a game.",
+      "sort_order": 100,
+      "icon": "/assets/medals/Meat Shield.png"
+    },
+    {
+      "name": "Off Target",
+      "description": "Lowest accuracy in a game.",
+      "sort_order": 110,
+      "icon": "/assets/medals/Off Target.png"
+    },
+    {
+      "name": "Pacifist",
+      "description": "Least number of shots taken in a game.",
+      "sort_order": 120,
+      "icon": "/assets/medals/Pacifist.png"
+    },
+    {
+      "name": "Playing the Objective",
+      "description": "Most objective captures in a game.",
+      "sort_order": 130,
+      "icon": "/assets/medals/Playing The Objective.png"
+    },
+    {
+      "name": "Rambo",
+      "description": "Most shots taken in a game.",
+      "sort_order": 140,
+      "icon": "/assets/medals/Rambo.png"
+    },
+    {
+      "name": "Triple Kill",
+      "description": "Three frags without a death.",
+      "sort_order": 150,
+      "icon": "/assets/medals/Triple Kill.png"
+    },
+    {
+      "name": "Unbreakable",
+      "description": "Fewest deaths in a game.",
+      "sort_order": 160,
+      "icon": "/assets/medals/Unbreakable.png"
+    }
+  ],
+  "facility_points": [
+    {
+      "label": "Arena Entrance",
+      "description": "Primary access point for recruits entering the Zombie Patrol training arena.",
+      "point_type": "entrance",
+      "color": "yellow",
+      "x": 10.25,
+      "y": 0.3,
+      "z": 10.0
+    },
+    {
+      "label": "Briefing Area",
+      "description": "Mission briefing and pre-game instruction area.",
+      "point_type": "label",
+      "color": "white",
+      "x": 2.75,
+      "y": 0.3,
+      "z": 13.0
+    },
+    {
+      "label": "Vesting Area",
+      "description": "Gear issue, vesting, and equipment check zone.",
+      "point_type": "label",
+      "color": "white",
+      "x": -2.0,
+      "y": 0.3,
+      "z": 14.0
+    },
+    {
+      "label": "Mission Start",
+      "description": "Default staging point before a training cycle begins.",
+      "point_type": "objective",
+      "color": "purple",
+      "x": 7.0,
+      "y": 1.5,
+      "z": 8.0
+    },
+    {
+      "label": "Blue Base",
+      "description": "Blue team base and starting position.",
+      "point_type": "base",
+      "color": "blue",
+      "x": 2.0,
+      "y": 0.75,
+      "z": 8.5
+    },
+    {
+      "label": "Green Base",
+      "description": "Green team base and starting position.",
+      "point_type": "base",
+      "color": "green",
+      "x": 2.5,
+      "y": 0.75,
+      "z": -11.0
+    }
+  ]
+}

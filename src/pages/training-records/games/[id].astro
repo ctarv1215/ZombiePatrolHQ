@@ -1,0 +1,17 @@
+---
+import HQShell from '../../../layouts/HQShell.astro';
+import snapshot from '../../../data/placeholder-snapshot.json';
+export function getStaticPaths() { return snapshot.games.map((g) => ({ params: { id: g.id }, props: { game: g } })); }
+const { game } = Astro.props;
+const players = snapshot.players.slice(0,8);
+---
+<HQShell title={game.title} active="records">
+  <section class="hero"><div class="kicker">Public Deployment Summary</div><h1>{game.title}</h1><p>{game.date} · {game.players} players · {game.status}</p></section>
+  <div class="panel-grid">
+    <section class="panel span-3"><div class="stat"><div class="stat-value">{game.players}</div><div class="stat-label">Players</div></div></section>
+    <section class="panel span-3"><div class="stat"><div class="stat-value">{game.totalScore.toLocaleString()}</div><div class="stat-label">Score</div></div></section>
+    <section class="panel span-3"><div class="stat"><div class="stat-value">{game.frags.toLocaleString()}</div><div class="stat-label">Frags</div></div></section>
+    <section class="panel span-3"><div class="stat"><div class="stat-value">{Math.round(game.durationSeconds/60)}</div><div class="stat-label">Minutes</div></div></section>
+    <section class="panel span-12"><h2>Featured Participants</h2><div class="record-list">{players.map((p)=><a class="record-card" href={`/training-records/players/${p.id}`}><img class="avatar" src={p.avatar} alt="" /><div><div class="record-title">{p.callsign}</div><div class="record-sub">{p.rank} · {p.team}</div></div><span class="badge">Public</span></a>)}</div></section>
+  </div>
+</HQShell>

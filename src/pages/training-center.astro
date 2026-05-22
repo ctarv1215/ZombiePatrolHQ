@@ -1,0 +1,11 @@
+---
+import HQShell from '../layouts/HQShell.astro';
+import snapshot from '../data/placeholder-snapshot.json';
+---
+<HQShell title="Training Center Information" active="training">
+  <section class="hero"><div class="kicker">Recruit Orientation</div><h1>Training Center Information</h1><p>Ranks, medals, recognition, conduct expectations, scoring language, and basic recruit orientation for Zombie Patrol players.</p></section>
+  <div class="panel-grid">
+    <section class="panel span-6"><h2>Rank Ladder</h2><div class="codex-grid">{snapshot.ranks.slice(0,12).map((r)=><div class="codex-card"><img src={r.icon} alt="" /><h3>{r.code} · {r.name}</h3><p>{r.games_required} deployments required.</p></div>)}</div></section>
+    <section class="panel span-6"><h2>Medals & Recognition</h2><div class="codex-grid">{snapshot.medals.slice(0,12).map((m)=><div class="codex-card"><img src={m.icon} alt="" /><h3>{m.name}</h3><p>{m.description}</p></div>)}</div></section>
+  </div>
+</HQShell>

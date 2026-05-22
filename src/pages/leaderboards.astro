@@ -1,0 +1,10 @@
+---
+import HQShell from '../layouts/HQShell.astro';
+import snapshot from '../data/placeholder-snapshot.json';
+---
+<HQShell title="Leaderboards" active="leaderboards">
+  <section class="hero"><div class="kicker">Public Ranking Boards</div><h1>Leaderboards</h1><p>Public leaderboard preview using seeded Annelle training data. Only public-safe callsigns and aggregate stats are displayed.</p></section>
+  <div class="panel-grid">
+    <section class="panel span-12"><h2>Score Leaders</h2><div class="table-wrap"><table><thead><tr><th>Rank</th><th>Callsign</th><th>Team</th><th>Score</th><th>Games</th><th>Frags</th></tr></thead><tbody>{snapshot.players.slice(0,20).map((p,i)=><tr><td>#{i+1}</td><td><a href={`/training-records/players/${p.id}`}>{p.callsign}</a></td><td>{p.team}</td><td>{p.score.toLocaleString()}</td><td>{p.games}</td><td>{p.frags.toLocaleString()}</td></tr>)}</tbody></table></div></section>
+  </div>
+</HQShell>

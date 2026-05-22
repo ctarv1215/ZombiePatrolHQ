@@ -1,0 +1,20 @@
+---
+const { games = [], limit = 10 } = Astro.props;
+---
+<div class="table-wrap">
+  <table>
+    <thead><tr><th>Deployment</th><th>Date</th><th>Players</th><th>Score</th><th>Frags</th><th>Status</th></tr></thead>
+    <tbody>
+      {games.slice(0, limit).map((g) => (
+        <tr>
+          <td><a href={`/training-records/games/${g.id}`}>{g.title}</a></td>
+          <td>{g.date}</td>
+          <td>{g.players}</td>
+          <td>{g.totalScore.toLocaleString()}</td>
+          <td>{g.frags.toLocaleString()}</td>
+          <td><span class="badge">{g.status}</span></td>
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>

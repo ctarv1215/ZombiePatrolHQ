@@ -1,0 +1,15 @@
+---
+const { players = [], limit = 8 } = Astro.props;
+---
+<div class="record-list">
+  {players.slice(0, limit).map((p) => (
+    <a class="record-card" href={`/training-records/players/${p.id}`}>
+      <img class="avatar" src={p.avatar} alt={`${p.callsign} avatar`} />
+      <div>
+        <div class="record-title">{p.callsign}</div>
+        <div class="record-sub">{p.rank} · {p.team} · {p.games} deployments</div>
+      </div>
+      <span class="badge">{p.score.toLocaleString()} pts</span>
+    </a>
+  ))}
+</div>

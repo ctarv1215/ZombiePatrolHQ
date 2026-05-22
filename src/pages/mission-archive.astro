@@ -1,0 +1,10 @@
+---
+import HQShell from '../layouts/HQShell.astro';
+import snapshot from '../data/placeholder-snapshot.json';
+---
+<HQShell title="Mission Archive" active="archive">
+  <section class="hero"><div class="kicker">After-Action Archive</div><h1>Mission Archive</h1><p>Public mission recaps, seasonal events, special operations, and story-driven after-action summaries will live here.</p></section>
+  <div class="panel-grid">
+    {snapshot.games.slice(0,9).map((g)=><section class="panel span-4"><h2>{g.title}</h2><p>{g.date}</p><p>{g.players} recruits participated. {g.frags.toLocaleString()} frags recorded in public summary data.</p><a class="btn" href={`/training-records/games/${g.id}`}>Open Summary</a></section>)}
+  </div>
+</HQShell>

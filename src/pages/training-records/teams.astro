@@ -1,0 +1,10 @@
+---
+import HQShell from '../../layouts/HQShell.astro';
+import snapshot from '../../data/placeholder-snapshot.json';
+---
+<HQShell title="Teams" active="records">
+  <section class="hero"><div class="kicker">Squad Registry</div><h1>Teams</h1><p>Public team summaries with roster counts and aggregate public performance.</p></section>
+  <div class="panel-grid">
+    {snapshot.teams.map((t)=><section class="panel span-4"><div class="record-card"><img class="avatar" src={t.logo} alt="" /><div><div class="record-title"><a href={`/training-records/teams/${t.id}`}>{t.name}</a></div><div class="record-sub">{t.roster} members · {t.games} games</div></div><span class="badge">{t.score.toLocaleString()} pts</span></div></section>)}
+  </div>
+</HQShell>

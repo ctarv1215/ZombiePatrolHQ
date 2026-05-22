@@ -1,0 +1,39 @@
+---
+import HQShell from '../layouts/HQShell.astro';
+import StatPanel from '../components/StatPanel.astro';
+import PlayerList from '../components/PlayerList.astro';
+import GameTable from '../components/GameTable.astro';
+import snapshot from '../data/placeholder-snapshot.json';
+---
+<HQShell title="HQ Dashboard" active="dashboard">
+  <section class="hero">
+    <div class="hero-grid">
+      <div>
+        <div class="kicker">Public Civilian Access Terminal</div>
+        <h1>Zombie Patrol HQ</h1>
+        <p>Recruit information, public training records, mission archives, and facility intel for Lake Area Adventures Zombie Patrol.</p>
+        <div class="btn-row">
+          <a class="btn hot" href="/schedule-deployment">Schedule Deployment</a>
+          <a class="btn" href="/training-records">Open Training Records</a>
+          <a class="btn" href="/training-center">Review Training Center</a>
+        </div>
+      </div>
+      <img class="hero-logo" src="/assets/logos/lake-area-adventures-logo.png" alt="Lake Area Adventures" />
+    </div>
+  </section>
+  <div class="panel-grid">
+    <StatPanel label="Public Players" value={snapshot.players.length} />
+    <StatPanel label="Teams" value={snapshot.teams.length} />
+    <StatPanel label="Recent Games" value={snapshot.games.length} />
+    <StatPanel label="Last Snapshot" value="Seeded" />
+    <section class="panel span-6">
+      <h2>Top Training Records</h2>
+      <p class="notice">This preview uses public-safe placeholder data derived from the seeded Annelle test database. Live hourly sync will be added in the next phase.</p>
+      <PlayerList players={snapshot.players} limit={5} />
+    </section>
+    <section class="panel span-6">
+      <h2>Recent Deployments</h2>
+      <GameTable games={snapshot.games} limit={6} />
+    </section>
+  </div>
+</HQShell>

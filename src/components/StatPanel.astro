@@ -1,0 +1,9 @@
+---
+const { label, value, span = '3' } = Astro.props;
+---
+<section class={`panel span-${span}`}>
+  <div class="stat">
+    <div class="stat-value">{value}</div>
+    <div class="stat-label">{label}</div>
+  </div>
+</section>

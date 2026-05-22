@@ -1,0 +1,17 @@
+---
+import HQShell from '../../../layouts/HQShell.astro';
+import snapshot from '../../../data/placeholder-snapshot.json';
+export function getStaticPaths() { return snapshot.players.map((p) => ({ params: { id: p.id }, props: { player: p } })); }
+const { player } = Astro.props;
+---
+<HQShell title={player.callsign} active="records">
+  <section class="dossier-hero" style={`background-image: url('${player.background}')`}><div class="dossier-shade"><img src={player.avatar} alt={`${player.callsign} avatar`} /><div><div class="kicker">Public Training Dossier</div><h1>{player.callsign}</h1><p>{player.rankCode} · {player.rank} · {player.team}</p><div class="btn-row"><span class="badge">{player.games} deployments</span><span class="badge">{player.score.toLocaleString()} score</span><span class="badge">{player.frags.toLocaleString()} frags</span></div></div></div></section>
+  <div class="panel-grid">
+    <section class="panel span-3"><div class="stat"><div class="stat-value">{player.games}</div><div class="stat-label">Games</div></div></section>
+    <section class="panel span-3"><div class="stat"><div class="stat-value">{player.frags}</div><div class="stat-label">Frags</div></div></section>
+    <section class="panel span-3"><div class="stat"><div class="stat-value">{player.wounds}</div><div class="stat-label">Wounds</div></div></section>
+    <section class="panel span-3"><div class="stat"><div class="stat-value">{player.accuracy}%</div><div class="stat-label">Accuracy</div></div></section>
+    <section class="panel span-6"><h2>Rank</h2><div class="record-card"><img class="avatar" src={player.rankIcon} alt="" /><div><div class="record-title">{player.rank}</div><div class="record-sub">Public rank based on seeded Annelle data.</div></div><span class="badge">{player.rankCode}</span></div></section>
+    <section class="panel span-6"><h2>Public Medals</h2><div class="codex-grid">{player.medals.map((m)=><div class="codex-card"><img src={m} alt="" /><h3>Recognition</h3><p>Public medal asset from the Annelle library.</p></div>)}</div></section>
+  </div>
+</HQShell>

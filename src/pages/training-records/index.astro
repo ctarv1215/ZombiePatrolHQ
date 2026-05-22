@@ -1,0 +1,18 @@
+---
+import HQShell from '../../layouts/HQShell.astro';
+import StatPanel from '../../components/StatPanel.astro';
+import PlayerList from '../../components/PlayerList.astro';
+import GameTable from '../../components/GameTable.astro';
+import snapshot from '../../data/placeholder-snapshot.json';
+---
+<HQShell title="Training Records" active="records">
+  <section class="hero"><div class="kicker">Annelle Public Data Preview</div><h1>Training Records</h1><p>Public-safe player, team, and game records powered by the Annelle data model. This MVP is read-only and has no login or claim features.</p><div class="btn-row"><a class="btn" href="/training-records/players">Players</a><a class="btn" href="/training-records/teams">Teams</a><a class="btn" href="/training-records/games">Games</a></div></section>
+  <div class="panel-grid">
+    <StatPanel label="Players Indexed" value={snapshot.players.length} />
+    <StatPanel label="Teams Indexed" value={snapshot.teams.length} />
+    <StatPanel label="Games Indexed" value={snapshot.games.length} />
+    <StatPanel label="Feed Mode" value="Static" />
+    <section class="panel span-6"><h2>Player Index</h2><PlayerList players={snapshot.players} limit={8} /></section>
+    <section class="panel span-6"><h2>Game Index</h2><GameTable games={snapshot.games} limit={8} /></section>
+  </div>
+</HQShell>

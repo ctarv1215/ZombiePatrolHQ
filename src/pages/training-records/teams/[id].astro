@@ -1,0 +1,11 @@
+---
+import HQShell from '../../../layouts/HQShell.astro';
+import snapshot from '../../../data/placeholder-snapshot.json';
+export function getStaticPaths() { return snapshot.teams.map((t) => ({ params: { id: t.id }, props: { team: t } })); }
+const { team } = Astro.props;
+const roster = snapshot.players.filter((p)=>p.team===team.name).slice(0,12);
+---
+<HQShell title={team.name} active="records">
+  <section class="hero"><div class="hero-grid"><div><div class="kicker">Squad Dossier</div><h1>{team.name}</h1><p>{team.roster} public roster entries · {team.games} recorded deployments · {team.frags.toLocaleString()} frags</p></div><img class="hero-logo" src={team.logo} alt="" /></div></section>
+  <div class="panel-grid"><section class="panel span-6"><h2>Roster Preview</h2><div class="record-list">{roster.map((p)=><a class="record-card" href={`/training-records/players/${p.id}`}><img class="avatar" src={p.avatar} alt="" /><div><div class="record-title">{p.callsign}</div><div class="record-sub">{p.rank}</div></div><span class="badge">{p.score.toLocaleString()} pts</span></a>)}</div></section><section class="panel span-6"><h2>Aggregate Stats</h2><div class="panel-grid"><section class="panel span-6"><div class="stat"><div class="stat-value">{team.score.toLocaleString()}</div><div class="stat-label">Score</div></div></section><section class="panel span-6"><div class="stat"><div class="stat-value">{team.frags.toLocaleString()}</div><div class="stat-label">Frags</div></div></section></div></section></div>
+</HQShell>
